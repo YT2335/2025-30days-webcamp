@@ -136,7 +136,6 @@ table {
 *::before,
 *::after {
     box-sizing: border-box;
-    /* outline: solid 1px; */
 }
 
 body {
@@ -228,10 +227,6 @@ a {
         flex-direction: column;
     }
 
-    .about-pic {
-        width: 100%;
-    }
-
     .about-textbox {
         width: 100%;
         display: flex;
@@ -246,12 +241,7 @@ a {
         flex-direction: column;
     }
 
-    .about-pic {
-        width: 100%;
-    }
-
     .about-textbox {
-        width: 100%;
         display: flex;
         flex-direction: column;
         padding: 48px 12px;
@@ -269,7 +259,7 @@ a {
     margin-bottom: 48px;
 }
 
-.article-pic {
+.article-pic img {
     margin-bottom: 24px;
 }
 
@@ -331,4 +321,92 @@ a {
 
 .article-section-contact {
     text-decoration: underline;
+}
+
+.page-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-btn-left {
+    background-image: url('images/chevron-left 1.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 24px;
+    border: 1px solid #4B4B4B;
+    border-radius: 80px;
+    padding: 8px 16px;
+}
+
+.page-btn-left a {
+    padding-left: 1em;
+    color: #4B4B4B;
+}
+
+.page-btn-right {
+    background-image: url('images/chevron-right 1.png');
+    background-repeat: no-repeat;
+    background-position: 60px center;
+    background-size: 24px;
+    border: 1px solid #4B4B4B;
+    border-radius: 80px;
+    padding: 8px 16px;
+}
+
+.page-btn-right a {
+    padding-right: 1em;
+    color: #4B4B4B;
+}
+
+@media(max-width:992px) {
+    .page-btn {
+        margin-top: 48px;
+    }
+}
+
+@media(max-width:767px) {
+    .content {
+        padding: 12px;
+        margin-bottom: 48px;
+    }
+
+    .page-btn {
+        margin-top: 48px;
+    }
+}
+
+/*footer*/
+.contact {
+    border-top: 1px solid #4B4B4B;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 312px;
+}
+
+.email {
+    font-size: 32px;
+}
+
+.sm-icon-list {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.copyright {
+    text-align: center;
+    padding: 24px;
+    background: #FFFFFF;
+}
+
+@media(max-width:992px) {
+    .contact {
+        display: none;
+    }
+}
+
+@media(max-width:767px) {
+    .contact {
+        display: none;
+    }
 }

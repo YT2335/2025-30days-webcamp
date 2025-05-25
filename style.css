@@ -136,7 +136,6 @@ table {
 *::before,
 *::after {
     box-sizing: border-box;
-    /* outline: solid 1px; */
 }
 
 body {
@@ -200,7 +199,7 @@ a {
 }
 
 .about-person-img {
-    max-width: 50%;
+    width: 50%;
 }
 
 .about-job {
@@ -235,7 +234,7 @@ a {
     }
 
     .about-person-img {
-        max-width: 100%;
+        width: 100%;
     }
 
     .about-job {
@@ -257,7 +256,7 @@ a {
     }
 
     .about-person-img {
-        max-width: 100%;
+        width: 100%;
     }
 
     .about-job {
@@ -278,6 +277,10 @@ a {
     border-bottom: 1px solid #4B4B4B;
     border-top: 1px solid #4B4B4B;
     border-right: 1px solid #4B4B4B;
+}
+
+.about-pic {
+    width: 50%;
 }
 
 .about-textbox {
@@ -376,18 +379,12 @@ a {
 }
 
 @media(max-width:992px) {
-    /* .search {
-        width: 416px;
-    } */
-
-    .search-bar {}
+    .search-bar {
+        width: 48%;
+    }
 }
 
 @media(max-width:767px) {
-    .search {
-        /* width: 100%; */
-    }
-
     .search-bar {
         width: 100%;
     }
@@ -518,6 +515,7 @@ a {
 .copyright {
     text-align: center;
     padding: 24px;
+    background: #FFFFFF;
 }
 
 @media(max-width:992px) {
