@@ -184,9 +184,9 @@ a {
     display: flex;
     gap: 24px;
     margin-bottom: 80px;
-    border-bottom: 1px solid #4B4B4B;
-    border-top: 1px solid #4B4B4B;
-    border-right: 1px solid #4B4B4B;
+    border-bottom: 1px solid #6C757D;
+    border-top: 1px solid #6C757D;
+    border-right: 1px solid #6C757D;
 }
 
 .about-textbox {

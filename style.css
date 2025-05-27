@@ -245,8 +245,6 @@ a {
     .about-job-title {
         font-size: 52px;
     }
-
-    .about-job-name {}
 }
 
 @media(max-width:767px) {
